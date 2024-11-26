@@ -1,0 +1,19 @@
+.notification {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .notification.enter {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  
+  .notification.show {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  .notification.exit {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  
